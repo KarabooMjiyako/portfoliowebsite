@@ -1,154 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Karabo is a front-end engineer based in South Africa."
+    />
+    <title>Front-end developer - Karabo Mjiyako/title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-</head>
+  </head>
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Karabo Mjiyako</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="work.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="about.html#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="about.html#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="index.html" title="Homepage">Karabo Mjiyako
+      </a>
+      <ul>
+        <li class="active">
+          <a href="index.html" title="Homepage"> Home</a>
+        </li>
+        <li>
+          <a href="about.html" title="About Karabo"> About</a>
+        </li>
+        <li>
+          <a href="work.html" title="Karabo's work"> Work</a>
+        </li>
+        <li>
+          <a href="contact.html" title="Contact Karabo"> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div class="hero">
     <p>👋 Hello, I'm</p>
     <h1>Karabo Mjiyako</h1>
-    <h2 class="mb-5">a Junior Multidisciplinary Developer based in South Africa</h2>
+    <h2 class="mb-5">junior multi-disciplinary developer based in South Africa</h2>
     <div>
-      <a
-          href="about.html#contact"
-          class="project-link"
-          title="Contact Karabo"
-        >
-          Contact me
-        </a>
+      <a href="contact.html" class="btn project-link" title="Contact me"
+        >Contact me</a
+      >
     </div>
   </div>
-  
   <p class="text-center m-5">
     Check out some of my featured projects below
+
   </p>
 
-  
-<div class="container">
+  <div class="container">
+
     <div class="row mb-5">
-    <div class="col-md-4">
-        <div class="project-description">
-            <h2 class="mb-5">Skycast React Weather App</h2>
-            <p class="mb-5 text-muted">
-                In the pursuit of expanding my skills, I ventured into React.js to develop a Weather App. This project not only demonstrates my adeptness in React but also underscores my commitment to creating functional and user-friendly applications. The React Weather App seamlessly integrates real-time weather data, offering users an intuitive interface to stay informed about current conditions and forecasts. With a focus on responsive design and dynamic updates, this project showcases my dedication to crafting modern and engaging user experiences.
-            </p>
-            <a href="work.html" class="project-link">Learn more</a>
-        </div>
-    </div>
-        
-    <div class="col-md-4">
-        <div class="project-description">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-5 text-muted">
-                I built a Vanilla JavaScript weather app in SheCodes Plus, an advanced 8-week JavaScript coding workshop. Building upon my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.
-            </p>
-            <a href="work.html" class="project-link">Learn more</a>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="project-description">
-            <h2 class="mb-5">Digital Design Portfolio</h2>
-            <p class="mb-5 text-muted">
-                As you explore my digital design portfolio, you'll discover a diverse collection of projects, ranging from graphic design to product design. Each project reflects my passion for creativity and innovation, highlighting my ability to bring ideas to life through compelling visuals and thoughtful user interactions.
-            </p>
-            <a href="work.html" class="project-link">Learn more</a>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="project-description">
-            <h2 class="mb-5">Multimedia Portfolio</h2>
-            <p class="mb-5 text-muted">
-            In this curated showcase, I invite you to witness my ability to breathe life into ideas through compelling visuals and thoughtful user interactions. Every project is a narrative of its own, a manifestation of my dedication to crafting immersive and engaging multimedia experiences. Whether it's the harmonious blend of colors in a graphic design piece or the seamless integration of functionality in a product design, each creation is imbued with a unique story.
-            </p>
-            <a href="work.html" class="project-link">Learn more</a>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="project-description">
-          <h2 class="mb-5">Classic Books Landing Page</h2>
-          <p class="mb-5 text-muted">
-              I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a landing page for a classics bookstore. The page utilizes JavaScript functions to create user interaction.
-          </p>
-          <a href="work.html" class="project-link">Learn more</a>
+      <div class="col d-none d-lg-block">
+        <img
+          src="images/yogurt.png"
+          class="img-fluid"
+          alt="Yogurt project preview"
+        />
       </div>
-  </div>
-
-
-
-</div>
-  </div>
-
-
-  <footer class="container">
-    <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-        <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">Let's work together</p>
+      <div class="col">
+        <div class="project-desciption">
+          <h2 class="mb-5">Classic Book Landing Page </h2>
+          <p class="mb-5 text-muted">
+           I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a landing page for a classics bookstore. The page utilizes JavaScript functions to create user interaction. 
+          </p>
+          <a href="work.html" class="btn project-link">
+            Learn more
+          </a>
         </div>
-        <div>
-            <a href="about.html#contact" class="project-link mt-3" title="Contact Karabo">Contact me</a>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col">
+        <div class="project-desciption">
+          <h2 class="mb-5">Weather App</h2>
+          <p class="mb-5 text-muted">
+            I built a Vanilla JavaScript weather app in SheCodes Plus, an advanced 8-week JavaScript coding workshop. Building upon my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these skills to create a fully-functioning weather app. 
+          </p>
+          <a href="work.html" class="btn project-link">
+            Learn more
+          </a>
         </div>
+      </div>
+      <div class="col d-none d-lg-block">
+        <img
+          src="images/weather.png"
+          class="img-fluid"
+          alt="Weather project preview"
+        />
+      </div>
     </div>
 
-    <section id="contact">
-        <h2 class="project-header text-center">📮Contact me</h2>
-    </section>
+    <div class="row mb-5">
+      <div class="col d-none d-lg-block">
+        <img
+          src="images/yogurt.png"
+          class="img-fluid"
+          alt="Yogurt project preview"
+        />
+      </div>
+      <div class="col">
+        <div class="project-desciption">
+          <h2 class="mb-5">Multimedia Portfolio </h2>
+          <p class="mb-5 text-muted">
+            n this curated showcase, I invite you to witness my ability to breathe life into ideas through compelling visuals and thoughtful user interactions. Every project is a narrative of its own, a manifestation of my dedication to crafting immersive and engaging multimedia experiences. Whether it's the harmonious blend of colors in a graphic design piece or the seamless integration of functionality in a product design, each creation is imbued with a unique story.
+          </p>
+          <a href="work.html" class="btn project-link">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div class="row mb-5">
+      <div class="col">
+        <div class="project-desciption">
+          <h2 class="mb-5">React Weather App</h2>
+          <p class="mb-5 text-muted">
+            I built a Vanilla JavaScript weather app in SheCodes React, an advanced 6-week JavaScript coding workshop. Building upon my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these skills to create a fully-functioning weather app. 
+          </p>
+          <a href="work.html" class="btn project-link">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="col d-none d-lg-block">
+        <img
+          src="images/weather.png"
+          class="img-fluid"
+          alt="Weather project preview"
+        />
+      </div>
+    </div>
 
-    <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:mjiyakontokozo@gmail.com" class="email-link" title="Email Karabo">mjiyakontokozo@gmail.com</a>
+    <div class="row mb-5">
+      <div class="col d-none d-lg-block">
+        <img
+          src="images/yogurt.png"
+          class="img-fluid"
+          alt="Yogurt project preview"
+        />
+      </div>
+      <div class="col">
+        <div class="project-desciption">
+          <h2 class="mb-5">Digital Design Portfolio</h2>
+          <p class="mb-5 text-muted">
+            As you explore my digital design portfolio, you'll discover a diverse collection of projects, ranging from graphic design to product design. Each project reflects my passion for creativity and innovation, highlighting my ability to bring ideas to life through compelling visuals and thoughtful user interactions.
+          </p>
+          <a href="work.html" class="btn project-link">
+            Learn more
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/KarabooMjiyako" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
-        <a href="#" target="_blank" title="Instagram Profile"><i class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank" title="Twitter Profile"><i class="fab fa-twitter"></i></a>
     </div>
-    <p class="text-center mt-5">✌️ This website was coded by Karabo Mjiyako and is <a href="https://github.com/KarabooMjiyako" target="_blank">open-sourced</a></p>
-</footer>
+
+
+
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+              <h3>Work Inquiry</h3>
+              <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+              <a href="about.html" class="project-link mt-3" title="Contact Karabo">Contact me</a>
+          </div>
+      </div>
+  
+      <section id="contact">
+          <h2 class="project-header text-center">📮Contact me</h2>
+      </section>
+  
+      <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:mjiyakontokozo@gmail.com" class="email-link" title="Email Karabo">mjiyakontokozo@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com/KarabooMjiyako" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" title="Instagram Profile"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" title="Twitter Profile"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="text-center mt-5">✌️ This website was coded by Karabo Mjiyako and is <a href="https://github.com/KarabooMjiyako" target="_blank">open-sourced</a></p>
+  </footer>
+  </div>
 </body>
 </html>
